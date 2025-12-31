@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Registration for </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.htm">HOME</a></li>
+                <li><a href="aboutus.htm">ABOUT US</a></li>
+                <li><a href="member.htm">MEMBERSHIP</a></li>
+                <li><a href="facilities.htm">FACILITIES</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="https://en.wikipedia.org/wiki/Instagram" target="blank"><img src="img/ig.png" alt="Instagram"></a>
+            <a href="https://en.wikipedia.org/wiki/Facebook" target="blank"><img src="img/face.png" alt="Facebook"></a>
+        </div>
+       <form method="post" onsubmit="return showPopup()">
+            <div class="container">
+                <h1>MEMBER Registration</h1>
+                <div class="rg">
+                    <label>NAME:</label>
+                    <input type="text" name="n1" placeholder="ENTER NAME" required>
+                </div>
+                 
+                 <div class="rg">
+                    <label>AGE:</label>
+                    <input type="number" name="n2" placeholder="ENTER AGE" required>
+                </div>
+
+                 <div class="rg">
+                    <label>PHONE-NO:</label>
+                    <input type="tel" name="n3" placeholder="ENTER PHONE-NO" pattern="[6-9]{1}[0-9]{9}" required>
+                </div>
+
+                 <div class="rg">
+                    <label>EMAIL:</label>
+                    <input type="email" name="n4" placeholder="ENTER EMAIL" required>
+                </div>
+                    
+                 <div class="rg">
+                    <label>GENDER:</label>
+                    <input type="radio" name="n5" required class="gender">MALE
+                    <input type="radio" name="n5" required class="gender">FEMALE
+                </div>
+
+                 <div class="rg">
+                    <label>ADDRESS:</label>
+                    <input type="text" name="n6" placeholder="ENTER ADDRESS" required>
+                </div>
+
+                <div class="btnn">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </form>
+    </header>
+    <script>
+function showPopup() {
+    alert("Registered Successfully!");
+    return false;
+}
+</script>
+
+</body>
+</html>

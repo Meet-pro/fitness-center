@@ -1,0 +1,239 @@
+body{
+    background-image:url(../img/bg2.jpg);
+    background-size:cover;
+    height: auto;
+    margin:0;
+    padding:0;
+    color: rgba(250, 248, 245, 0.817);
+    font-family:Georgia;
+}
+header{
+    display:flex
+}
+.left{
+     position: absolute;
+    left:10px;
+    top:8px;
+}
+.left img{
+    width: 78px;
+    height: 71px;
+}
+.mid{
+    display: block;
+    width: 37%;
+    margin: 15px auto;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    display: block;
+   
+}   
+.navbar li a:hover{
+    background-color:rgb(163, 155, 155) ;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+}
+.right{
+    position: absolute;
+    right:10px;
+    top:15px;
+
+}
+.right img{
+    width:38px;
+    height:41px;
+    padding:5px;
+}
+.fom{
+    width:30%;
+    margin:2px;
+    position:absolute;
+    bottom: 37%;
+    left:32%;
+    text-align: center;
+    color:rgba(255, 247, 247, 0.949);
+    max-width: 520px;
+    padding:20px;
+}
+.fom button{
+    width: 60%;
+    padding: 0px;
+    background: #faf8f8;
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(45, 44, 44);
+    cursor: pointer;
+    position:absolute;
+    left:20%;
+    padding: 12px;
+}
+.fom button a{
+    text-decoration: none;
+    margin: 15px;
+    padding:6px;
+    color: rgb(45, 44, 44);
+}
+.fom button:hover{
+    background: #0b0b0b;
+}
+
+form{
+  align-items: center;
+  font-size: 25px;
+  position: absolute;
+  bottom: 8%;
+  left:33%;
+  display: flex;
+}
+.container {
+    width:420px;
+    padding: 5px;
+    border:#0b0b0b;
+    border-radius:black 16px;
+    position:absolute;
+    bottom:33%;
+    color:#fff;
+
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.rg {
+ display: flex;
+ align-items:center;
+ margin-bottom:15px;
+ font-size: 14px;;
+}
+.rg label {
+    width:100px;
+    font-weight:bold;
+    font-size:14px;
+}
+.rg input[type="text"],
+.rg input[type="number"],
+.rg input[type="tel"],
+.rg input[type="email"] {
+    padding: 12px;
+    background: #2a2a2a;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.gender{
+    cursor: pointer;
+    margin-right:8px;
+}
+.btnn {
+    margin-top: 20px;
+    text-align: center;
+}
+.btnn button {
+    width: 35%;
+    padding: 14px;
+    background: #faf8f8;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(45, 44, 44);
+    cursor: pointer;
+}
+.btnn button:hover {
+    background: #0b0b0b;
+}
+.mem{
+    position:absolute;
+    left:40%;
+    bottom: 66%;
+    width:445px;
+    padding: 5px;
+}
+#header{
+    text-align: center;
+}
+.members{
+    text-align: center;
+    position: absolute;
+    bottom:50%;
+    font-size: 20px;
+}
+.plan {
+    position: absolute;
+    bottom:35%;
+    left:18%;
+    font-size:22px;
+    padding:21px;
+    margin:-10px ;
+}
+.join{
+    position:absolute;
+    bottom:23%;
+    left:35%;
+    font-size: 18px;
+}
+.join button{
+    width: 60%;
+    padding: 0px;
+    background: #faf8f8;
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(45, 44, 44);
+    cursor: pointer;
+    position:absolute;
+    left:25%;
+    padding: 12px;
+}
+.join button a{
+    text-decoration: none;
+    margin: 15px;
+    padding:25px;
+    color: rgb(45, 44, 44);
+}
+.join button:hover{
+    background: #0b0b0b;
+}
+.abt{
+    text-align:center;
+    font-size:25px;
+}
+.tagline{
+    position: absolute;
+    left:28%;
+    font-size: 35px;
+}
+#fac{
+    text-align: center;
+    font-size:25px;
+}
+.faci ul{
+    padding-left:20px;
+    font-size:22px;
+}
+.faci li{
+    text-align: left;
+    margin-bottom:15px;
+}
+.ff{
+    text-align: center;
+    text-decoration: underline;
+}
